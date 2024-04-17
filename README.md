@@ -24,3 +24,6 @@ else:
     print("Invalid operator")
     continue
 print("Result: ", result)
+choice = input("Do you want to perform another calculation? (yes/no): ")
+if choice.lower() != 'yes':
+    break
