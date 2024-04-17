@@ -23,3 +23,4 @@ elif operator == '/':
 else:
     print("Invalid operator")
     continue
+print("Result: ", result)
