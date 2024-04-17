@@ -8,3 +8,18 @@ while True:
     except ValueError:
         print("Invalid input. Please enter valid numbers.")
         continue
+if operator == '+':
+    result = num1 + num2
+elif operator == '-':
+    result = num1 - num2
+elif operator == '*':
+    result = num1 * num2
+elif operator == '/':
+    if num2 == 0:
+        print("Error: Division by zero")
+        continue
+    else:
+        result = num1 / num2
+else:
+    print("Invalid operator")
+    continue
